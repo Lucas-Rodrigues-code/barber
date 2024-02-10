@@ -11,7 +11,7 @@ export default function Service() {
       pb={20}
       mt={5}
     >
-      <Box w={["auto","800px"]}>
+      <Box w={["auto", "800px"]}>
         <Text
           as={"h1"}
           fontSize={"44px"}
@@ -20,7 +20,6 @@ export default function Service() {
           fontFamily={"inter"}
           color={"#06121E"}
           textAlign={"center"}
-          
         >
           Serviços
         </Text>
@@ -39,8 +38,8 @@ export default function Service() {
           duis augue eros mattis a quis sem sodales.
         </Text>
       </Box>
-      <Flex mt={5} flexDirection={["column","row"]}>
-        <Box w={"354px"} h={"389px"} mx={5} mt={[5,0]}>
+      <Flex mt={5} flexDirection={["column", "row"]} w={"100%"}>
+        <Box w={["340px", "354px"]} h={"389px"} mx={5} mt={[5, 0]}>
           <Image
             src={"/assets/service/cabelo.png"}
             alt="corte-cabelo"
@@ -73,7 +72,7 @@ export default function Service() {
           </Box>
         </Box>
 
-        <Box w={"354px"} h={"389px"}mx={5} mt={[5,0]}>
+        <Box w={["340px", "354px"]} h={"389px"} mx={5} mt={[5, 0]}>
           <Image
             src={"/assets/service/barba.png"}
             alt="corte-cabelo"
@@ -106,7 +105,7 @@ export default function Service() {
           </Box>
         </Box>
 
-        <Box w={"354px"} h={"389px"} mx={5} mt={[5,0]}>
+        <Box w={["340px", "354px"]} h={"389px"} mx={5} mt={[5, 0]}>
           <Image
             src={"/assets/service/cabelo_barba.png"}
             alt="corte-cabelo"
