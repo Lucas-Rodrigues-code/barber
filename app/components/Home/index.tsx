@@ -1,5 +1,6 @@
 import { Box, Button, Container, Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -58,14 +59,20 @@ export default function HomePage() {
           >
             Horário de funcionamento: 09:00 ás 19:00
           </Text>
-          <Button
-            w={["193px", "292px"]}
-            h={["48px", "66px"]}
-            bg={"#D94140"}
-            mt={10}
+          <Link
+            href="https://api.whatsapp.com/send?phone=5541996721134&text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20site"
+            className="no-underline"
+            target="_blank"
           >
-            Agendar horário
-          </Button>
+            <Button
+              w={["193px", "292px"]}
+              h={["48px", "66px"]}
+              bg={"#D94140"}
+              mt={10}
+            >
+              Agendar horário
+            </Button>
+          </Link>
         </Flex>
       </Box>
     </Box>

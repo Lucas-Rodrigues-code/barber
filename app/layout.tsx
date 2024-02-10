@@ -4,6 +4,9 @@ import "./globals.css";
 import { Footer } from "./components/Footer";
 import { Providers } from "./providers";
 import { NavBar } from "./components/NavBar";
+import Link from "next/link";
+import Image from "next/image";
+import { Box } from "@chakra-ui/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +27,33 @@ export default function RootLayout({
           <NavBar />
           {children}
           <Footer />
+          <Box
+            position={"fixed"}
+            bg={"#40C351"}
+            w={70}
+            h={70}
+            zIndex={5}
+            bottom={10}
+            right={10}
+            display={"flex"}
+            justifyContent={"center"}
+            alignItems={"center"}
+            borderRadius={"50%"}
+          >
+            <Link
+              href="https://api.whatsapp.com/send?phone=5541996721134&text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20site"
+              className="no-underline"
+              target="_blank"
+            >
+              <Image
+                className="h-10 w-10 sm:h-12 sm:w-12 no-underline"
+                src="/assets/footer/whatsApp.svg"
+                alt="evolims-logo"
+                width={50}
+                height={50}
+              />
+            </Link>
+          </Box>
         </body>
       </Providers>
     </html>

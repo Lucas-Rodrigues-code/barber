@@ -38,7 +38,7 @@ export default function Service() {
           duis augue eros mattis a quis sem sodales.
         </Text>
       </Box>
-      <Flex mt={5} flexDirection={["column", "row"]} w={"100%"}>
+      <Flex mt={5} flexDirection={["column", "row"]} w={"100%"} justifyContent={"center"}>
         <Box w={["340px", "354px"]} h={"389px"} mx={5} mt={[5, 0]}>
           <Image
             src={"/assets/service/cabelo.png"}
