@@ -53,8 +53,7 @@ export function Footer() {
           textAlign={"center"}
           fontFamily={"inter"}
           fontWeight={700}
-         
-          marginTop={40}
+          marginTop={"50px"}
         >
           Copyright© 2024 | Lucas-code - Todos os direitos reservados.
         </Text>
