@@ -17,7 +17,7 @@ export function Footer() {
         h={"326px"}
         direction={"column"}
         align={"center"}
-        paddingTop={30}
+        marginTop={30}
       >
         <Flex justifyContent={"space-between"} w={"120px"}>
           <Image
@@ -39,7 +39,7 @@ export function Footer() {
             height={33}
           />
         </Flex>
-        <Box paddingTop={30}>
+        <Box marginTop={30}>
           <Image
             src="./assets/footer/logo-barber.svg"
             alt="logo-instagram"
@@ -49,7 +49,7 @@ export function Footer() {
         </Box>
         <Text
           as="h3"
-          
+          color={"white"}
           textAlign={"center"}
           fontFamily={"inter"}
           fontWeight={700}
